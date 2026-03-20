@@ -63,7 +63,7 @@ lead-management-system/
    Create a `.env` file in the `server` directory and add:
    ```env
    PORT=5000
-   MONGO_URI=your_mongodb_atlas_uri
+   MONGO_URL=your_mongodb_atlas_url
    JWT_SECRET=your_jwt_secret
    JWT_EXPIRE=30d
    EMAIL_SERVICE=gmail
